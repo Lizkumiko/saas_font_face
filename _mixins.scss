@@ -14,12 +14,6 @@
 
 // =============================================================================
 // Font Face
-//
-// Example usages:
-// @include font-face(Samplino, fonts/Samplino);
-// @include font-face(Samplino, fonts/Samplino, bold, italic);
-// @include font-face(Samplino, fonts/Samplino, null, null, woff);
-// @include font-face(Samplino, fonts/Samplino, 500, normal, eot woff2 woff);
 // =============================================================================
 
 @mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf svg) {
@@ -31,7 +25,6 @@
 	);
 
 	$formats: (
-		eot: "!",
 		ttf: "truetype"
 	);
 
