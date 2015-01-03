@@ -10,7 +10,7 @@ Create a font face rule. Embedded OpenType, WOFF2, WOFF, TrueType, and SVG files
 @include font-face(Samplino, fonts/Samplino);
 ```
 
-Which becomes:
+Rendered as CSS:
 
 ```css
 @font-face {
@@ -29,7 +29,7 @@ Create a font face rule that applies to bold and italic text.
 @include font-face("Samplina Neue", fonts/SamplinaNeue, bold, italic);
 ```
 
-Which becomes:
+Rendered as CSS:
 
 ```css
 @font-face {
@@ -50,7 +50,7 @@ Create a font face rule that only sources a WOFF.
 @include font-face(Samplinoff, fonts/Samplinoff, null, null, woff);
 ```
 
-Which becomes:
+Rendered as CSS:
 
 ```css
 @font-face {
@@ -65,7 +65,7 @@ Create a font face that applies to 500 weight text and sources EOT, WOFF2, and W
 @include font-face(Samplinal, fonts/Samplinal, 500, normal, eot woff2 woff);
 ```
 
-Which becomes:
+Rendered as CSS:
 
 ```css
 @font-face {
