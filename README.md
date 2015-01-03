@@ -86,6 +86,6 @@ Rendered as CSS:
 
 ## Notes
 
-IE≥9 prioritizes valid font formats over invalid ones. Therefore, while `embedded-opentype` the correct format for an **.eot** font, `eot` is written to fool modern IE into prioritizing other, newer font formats.
+IE≥9 prioritizes valid font formats over invalid ones. Therefore, while `embedded-opentype` is the correct format for an **.eot** font, `eot` is used to fool modern IE into prioritizing other, newer font formats.
 
-IE≤8 only supports **.eot** fonts and parses the `src` property incorrectly, interpreting everything after the first opening parenthesis to the last closing parenthesis as a single URL. Therefore, a `?` is appended to the **.eot**’s URL, fooling older IE into interpreting all other sources as query parameters.
+IE≤8 only supports **.eot** fonts and parses the `src` property incorrectly, interpreting everything between the first opening parenthesis `(` and the last closing parenthesis `)` as a single URL. Therefore, a `?` is appended to the **.eot**’s URL, fooling older IE into reading all other sources as query parameters.
