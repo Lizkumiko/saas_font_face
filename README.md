@@ -65,7 +65,7 @@ Rendered as CSS:
 
 ---
 
-Create a font face that applies to 500 weight text and sources EOT, WOFF2, and WOFF.
+Create a font face rule that applies to 500 weight text and sources EOT, WOFF2, and WOFF.
 
 ```scss
 @include font-face(Samplinal, fonts/Samplinal, 500, normal, eot woff2 woff);
