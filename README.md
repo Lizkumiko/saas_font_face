@@ -59,7 +59,7 @@ Which becomes:
 }
 ```
 
-Create a font face that applies to 500 weight text and only sources a WOFF.
+Create a font face that applies to 500 weight text and sources EOT, WOFF2, and WOFF.
 
 ```scss
 @include font-face(Samplinal, fonts/Samplinal, 500, normal, eot woff2 woff);
