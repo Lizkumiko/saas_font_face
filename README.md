@@ -23,6 +23,8 @@ Rendered as CSS:
 }
 ```
 
+---
+
 Create a font face rule that applies to bold and italic text.
 
 ```scss
@@ -44,6 +46,8 @@ Rendered as CSS:
 }
 ```
 
+---
+
 Create a font face rule that only sources a WOFF.
 
 ```scss
@@ -58,6 +62,8 @@ Rendered as CSS:
 	src: url("fonts/Samplinoff.woff") format("woff");
 }
 ```
+
+---
 
 Create a font face that applies to 500 weight text and sources EOT, WOFF2, and WOFF.
 
