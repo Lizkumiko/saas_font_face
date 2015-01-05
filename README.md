@@ -2,7 +2,7 @@
 
 A mixin for writing @font-face rules in SASS.
 
-## Usages
+## Usage
 
 Create a font face rule. Embedded OpenType, WOFF2, WOFF, TrueType, and SVG files are automatically sourced.
 
